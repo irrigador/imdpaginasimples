@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+p {
+    margin: 10px;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+}
+
+header {
+    color: white;
+    height: 250px;
+    text-align: center;
+    background-image: url('./cidadecapa.jpg');
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    flex: 1;
+    background-color: #fff;
+    border-right: solid 1px rgb(225, 225, 225);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: solid 1px rgb(225, 225, 225);
+}
+
+
+article { 
+    flex: 4;
+    background-color: rgb(238, 238, 238);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+footer { 
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
